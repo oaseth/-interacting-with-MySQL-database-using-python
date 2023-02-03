@@ -30,13 +30,12 @@ def add_new_project(cursor, project_title, project_description,
     """ 
     A function to add a new project to the projects database
 
-    Parameter
-    ---------
+    Parameters
+    ----------
         cursor: the cursor object
         project_title: the title of the project to be added
         project_description: the description of the project
         task_descriptions: the description of the task
-
     """
     project_data = (project_title, project_description)
     cursor.execute('''INSERT INTO projects(title, description)  
