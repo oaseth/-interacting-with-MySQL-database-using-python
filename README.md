@@ -3,7 +3,7 @@ This repository contains the exercises and project work for the MySQL section of
 
 ## Modules used
 - MySQL.connector
-- SQLAlchemy
+- SQLAlchemy(Core and ORM)
 - Pandas
 
 ## Techniques implemented
